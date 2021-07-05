@@ -1,5 +1,7 @@
 # Git-Cheatsheet
 
+#To view the last 5 commits as one line items in log
+git log --oneline -n 5
 
 # To Squash multiple commits into one commit and interactively fix commit message, Very first commit becomes the main
 git rebase -i HEAD~5
