@@ -11,7 +11,7 @@ git push --force-with-lease   (to prevent overwriting other peoples commit with 
 # To un-commit changes that were just commited and keep changes
 git reset --soft HEAD~1
 
-# To un-commit 1 commit changes that were recently commited and discard changes (Dangerous command, will lose all changes in commit)
+# To un-commit changes that were recently commited and discard changes (Dangerous command, will lose all changes in commit)
 git reset --hard HEAD~1
 
 # To un commit changes from last 3 commits and create one new commit
