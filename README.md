@@ -22,3 +22,9 @@ git commit -m "New Commit"
 git push --force-with-lease
 
 
+
+# To update the last commits message
+git commit --amend
+
+# To update the last commits date to today
+git commit --amend --date="$(date -R)"
