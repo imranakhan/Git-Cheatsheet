@@ -28,5 +28,5 @@ git commit --amend
 
 # To update the last commits date to today
 git commit --amend --date="$(date -R)"
-or
+
 git commit --amend --date=now
