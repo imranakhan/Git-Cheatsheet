@@ -21,7 +21,12 @@ git commit -m "New Commit"
 
 git push --force-with-lease
 
+# To merge down from integration branch into working branch
+# Without merge commit
+git pull --rebase origin develop
 
+# with merge commit
+git pull origin develop
 
 # To update the last commits message
 git commit --amend
